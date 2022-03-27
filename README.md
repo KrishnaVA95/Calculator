@@ -7,7 +7,7 @@ O HTML traz uma div .calculator responsável por abranger todo o projeto, dentro
 tag </table> e suas colulas  </td>. Cada tag </td> leva uma tag </button>
 responsável por chamar o JavaScript pelo método onkeypress ou onclick.
 
-Através do JavaScript definimos nossas funções (insert, clean, back, calc e teclado)
+Através do JavaScript definimos nossas funções:
 1. A função insert sera acionada pelo método onclik="insert('parametro')" e imprime o botao clicado na tag span(resultado).
 2. A função teclado sera acionada pelo método onkeypress ="teclado()" e imprime a tecla pressionada no teclado.
 3. A função calc traz dentro dela a função eval, responsavel por calcular e retornar o valor para o nosso span(resultado).
